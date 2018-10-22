@@ -3,7 +3,6 @@ reinforcement learning flashcards
 
 ## todo list
 - [X] 中文 prototype
-- [ ] 中文 Focus on Forms
 - [ ] _HIST stack (with swipe left)
 - [ ] view all (cards and scores)
 - [ ] linear mode (vs reinforcement learning)
