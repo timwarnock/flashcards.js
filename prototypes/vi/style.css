@@ -1,0 +1,171 @@
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif, "UKai", "STKaiTi", "KaiTi";
+}
+
+#flashcard-pause-modal {
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.8);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+#flashcard-stats {
+  width: 600px;
+  padding: 20px;
+  margin: 50px 0 20px 5%;
+  color: white;
+  font-size: 20px;
+  line-height: 1.4em;
+  letter-spacing: 0.08;
+}
+#force-start {
+  font-size: 16px;
+  margin: 20px 0;
+}
+#flashcard-pause-resume {
+  margin: 40px auto;
+  font-size: 30px;
+}
+#flashcard-pause-quit {
+  margin: 0px auto 10px 0;
+  font-size: 30px;
+}
+
+#flashcard-modal {
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  z-index: 1;
+  background-color: #7cf;
+  visibility: hidden;
+}
+
+#flashcard {
+  position: relative;
+  background-color: white;
+  margin: 20px 0 20px 5%;
+  padding: 0;
+  border: 1px solid black;
+  box-shadow: 3px 3px 9px black;
+  width: 600px;
+  height: 400px;
+}
+@media only screen and (max-width: 600px) {
+  #flashcard {
+    margin: 20px auto;
+    width: 95%;
+    height: 300px;
+  }
+}
+#flashcard-content-wrapper {
+  width: 100%;
+  height: 100%;
+}
+#flashcard-front,
+#flashcard-back {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*
+ * flashcard buttons, skip | pause | flip/next
+ */
+#flashcard-skip {
+  position:absolute;
+  width: 20%;
+  left: 0px;
+  bottom: -60px;
+}
+#flashcard-pause {
+  background-color: #999;
+  position:absolute;
+  width: 58%;
+  left: 21%;
+  bottom: -60px;
+}
+#flashcard-okay {
+  position:absolute;
+  width: 20%;
+  left: 80%;
+  bottom: -60px;
+}
+.flashcard-buttons {
+  display: block;
+  text-align: center;
+  line-height: 56px;
+  font-size: 22px;
+  background-color: #666;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4%;
+  opacity: 0.9;
+  text-shadow: 0 0 1px #eee;
+  box-shadow: 3px 3px 5px black;
+  transition: all 0.3s ease-in;
+}
+.flashcard-buttons:hover {
+  text-shadow: 0 0 4px white;
+  opacity: 1.0;
+}
+.next-flipped {
+  background-color: #5b7;
+}
+
+
+/*
+ * flashcard text, prompts and answers
+ */
+.flashcard-prompt {
+  text-align: center;
+  font-size: 360%;
+}
+.flashcard-full-key {
+  text-align: center;
+  font-size: 250%;
+  color: #aaa;
+  padding: 10px;
+}
+.flashcard-full-answer {
+  font-size: 150%;
+  text-align: center;
+  padding: 10px;
+  max-height: 162px;
+  overflow-y: hidden;
+}
+.flashcard-full-alt {
+  font-size: 120%;
+  color: #888;
+  text-align: center;
+}
+
+.hand {
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#flashcard-pause-resume:hover,
+#flashcard-pause-quit:hover,
+#flashcard-pause-reset:hover,
+#flashcard-pause-reset2:hover,
+#flashcard-pause-reset10:hover {
+  text-shadow: 0 0 3px rgba(255,255,255,0.8);
+}
+

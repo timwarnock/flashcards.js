@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flashcard Prototype</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="flashcards.js"></script>
+</head>
+<body>
+
+
+
+
+<div id="flashcard-modal">
+<div id="fc-status">-</div>
+<div class="hand" id="flashcard">
+  <div id="flashcard-content-wrapper" onclick="toggleFlashcard()">
+    <div id="flashcard-front">...</div>
+    <div id="flashcard-back" style="visibility:hidden;opacity:0;">#</div>
+  </div>
+  <div id="flashcard-skip" class="hand flashcard-buttons" onclick="showNextFlashcard()">skip</div>
+  <div id="flashcard-pause" class="hand flashcard-buttons" onclick="pause()">pause</div>
+  <div id="flashcard-okay" class="hand flashcard-buttons" onclick="flipNext()">flip</div>
+  <audio id="flashcard-audio" style="display:none;"></audio>
+</div>
+</div>
+
+<div id="flashcard-pause-modal"></div>
+
+
+
+
+<div>
+<a href="?deck=danger">Danger Zone</a>
+<br />
+<a href="?deck=learning">Learning Zone</a>
+<br />
+<a href="?deck=hello">Comfort Zone</a>
+<br />
+<a href="?deck=tones">Tone Pairs</a>
+<br />
+<a href="?deck=convo1">Conversations-1</a>
+
+<p>
+Top Words:
+  <a href="?deck=top1" class="hand" onclick="loadDeck('http://www.verbose.net/zh/top1.json');return false;">1</a>
+, <a href="?deck=top2" class="hand" onclick="loadDeck('http://www.verbose.net/zh/top2.json');return false;">2</a>
+, <a href="?deck=top3" class="hand" onclick="loadDeck('http://www.verbose.net/zh/top3.json');return false;">3</a>
+, <a href="?deck=top4" class="hand" onclick="loadDeck('http://www.verbose.net/zh/top4.json');return false;">4</a>
+, <a href="?deck=top5" class="hand" onclick="loadDeck('http://www.verbose.net/zh/top5.json');return false;">5</a>
+, <a href="?deck=top6" class="hand" onclick="loadDeck('http://www.verbose.net/zh/top6.json');return false;">6</a>
+, <a href="?deck=top7" class="hand" onclick="loadDeck('http://www.verbose.net/zh/top7.json');return false;">7</a>
+, <a href="?deck=top8" class="hand" onclick="loadDeck('http://www.verbose.net/zh/top8.json');return false;">8</a>
+, <a href="?deck=top9" class="hand" onclick="loadDeck('http://www.verbose.net/zh/top9.json');return false;">9</a>
+, <a href="?deck=top10" class="hand" onclick="loadDeck('http://www.verbose.net/zh/top10.json');return false;">10</a>
+<br />
+Highest frequency words, based on <a href="https://en.wiktionary.org/wiki/Appendix:Mandarin_Frequency_lists" target="_blank">Mandarin Frequency lists</a>
+</p>
+</div>
+
+
+<script>
+function getURLParameter(name) {
+  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+}
+
+var deck = getURLParameter('deck');
+if (deck) {
+  loadDeck(deck+'.json');
+}
+
+</script>
+
+
+
+</body>
+</html>

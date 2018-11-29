@@ -1,0 +1,90 @@
+key,answer,alt,audio_prompt
+你,3rd,Nǐ - you,tones/ni3.mp3
+你們,3rd 5th,Nǐmen - you all,tones/ni3men0.mp3
+他,1st,Tā - he/she/it,tones/ta1.mp3
+他們,4th 5th,Tāmen - them/they,tones/ta1men0.mp3
+我,3rd,Wǒ - I/me,tones/wo3.mp3
+我們,3rd 5th,Wǒmen - we/us,tones/wo3men0.mp3
+比較,3rd 4th,Bǐjiào - compare,tones/bi3jiao4.mp3
+不*,2nd,Bú* - not *,tones/bu2.mp3
+不太,2nd 4th,Bútài - not too,tones/bu2tai4.mp3
+不,4th,Bù - not,tones/bu4.mp3
+非常,1st 2nd,Fēicháng - extremely,tones/fei1chang2.mp3
+痕,2nd,Hén - mark,tones/hen2.mp3
+很,3rd,Hěn - very,tones/hen3.mp3
+蠻,2nd,Mán - quite,tones/man2.mp3
+太,4th,Tài - too,tones/tai4.mp3
+停,2nd,Tíng - stop,tones/ting2.mp3
+挺,3rd,Tǐng - very,tones/ting3.mp3
+真,1st,Zhēn - really,tones/zhen1.mp3
+安靜,1st 4th,Ānjìng - be quiet,tones/an1jing4.mp3
+保守,3rd-3rd,Bǎoshǒu - conservative,tones/bao3shou3.mp3
+不錯,2nd 4th,Bùcuò - not wrong,tones/bu2cuo4.mp3
+聰明,1st 5th,Cōngming - clever,tones/cong1ming0.mp3
+方便,1st 4th,Fāngbiàn - convenience,tones/fang1bian4.mp3
+高興,1st 4th,Gāoxìng - happy,tones/gao1xing4.mp3
+好吃,3rd 1st,Hǎochī - goot to eat,tones/hao3chi1.mp3
+好懂,3rd~3rd,Hǎodǒng - understand,tones/hao3dong3.mp3
+好看,3rd 4th,Hǎokàn - good looking,tones/hao3kan4.mp3
+好聽,3rd 1st,Hǎotīng - nice,tones/hao3ting1.mp3
+好玩,3rd 2nd,Hǎowán - fun,tones/hao3wan2.mp3
+好奇,4th 2nd,Hàoqí - curious,tones/hao4qi2.mp3
+合適,2nd 4th,Héshì - suitable,tones/he2shi4.mp3
+狡猾,3rd 2nd,Jiǎohuá - cunning,tones/jiao3hua2.mp3
+緊張,3rd 1st,Jǐnzhāng - tension,tones/jin3zhang1.mp3
+可愛,3rd 4th,Kě'ài - cute/lovely,tones/ke3ai4.mp3
+客氣,4th 5th,Kèqì - polite,tones/ke4qi0.mp3
+快樂,4th 4th,Kuàilè - happy,tones/kuai4le4.mp3
+厲害,4th 5th,Lìhài - amazing,tones/li4hai0.mp3
+流行,2nd 2nd,Liúxíng - popular,tones/liu2xing2.mp3
+麻煩,2nd 5th,Máfan - trouble,tones/ma2fan0.mp3
+滿意,3rd 4th,Mǎnyì - satisfaction,tones/man3yi4.mp3
+明顯,2nd 3rd,Míngxiǎn - obvious,tones/ming2xian3.mp3
+難懂,2nd 3rd,Nán dǒng - hard to understand,tones/nan2dong3.mp3
+難說,2nd 1st,Nánshuō - hard to say,tones/nan2shuo1.mp3
+難聽,2nd 1st,Nántīng - ugly,tones/nan2ting1.mp3
+年輕,2nd 1st,Niánqīng - young,tones/nian2qing1.mp3
+暖和,3rd 5th,Nuǎnhe - warm,tones/nuan3he0.mp3
+暖和,3rd 5th,Nuǎnhuo - warm,tones/nuan3huo0.mp3
+便宜,2nd 5th,Piányi - cheap,tones/pian2yi0.mp3
+漂亮,4th 5th,Piàoliang - pretty,tones/piao4liang0.mp3
+清楚,1st 5th,Qīngchu - clear,tones/qing1chu0.mp3
+熱情,4th 2nd,Rèqíng - enthusiasm,tones/re4qing2.mp3
+容易,2nd 4th,Róngyì - easy,tones/rong2yi4.mp3
+傷心,1st 1st,Shāngxīn - sad,tones/shang1xin1.mp3
+舒服,1st 5th,Shūfu - comfortable,tones/shu1fu0.mp3
+特別,4th 2nd,Tèbié - especially,tones/te4bie2.mp3
+突然,1st 2nd,Tūrán - suddenly,tones/tu1ran2.mp3
+危險,1st 3rd,Wéixiǎn - danger,tones/wei1xian3.mp3
+無聊,2nd 2nd,Wúliáo - bored,tones/wu2liao2.mp3
+辛苦,1st 3rd,Xīnkǔ - hard,tones/xin1ku3.mp3
+性感,4th 3rd,Xìnggǎn - sexy,tones/xing4gan3.mp3
+用功,4th 1st,Yònggōng - work hard,tones/yong4gong1.mp3
+有名,3rd 2nd,Yǒumíng - famous,tones/you3ming2.mp3
+糟糕,1st 1st,Zāogāo - bad,tones/zao1gao1.mp3
+重要,4th 4th,Zhòngyào - important,tones/zhong4yao4.mp3
+自私,4th 1st,Zìsī - selfish,tones/zi4si1.mp3
+長,2nd,Cháng - long,tones/chang2.mp3
+大,4th,Dà - big,tones/da4.mp3
+短,3rd,Duǎn - short,tones/duan3.mp3
+餓,4th,è - hungry,tones/e4.mp3
+乾,1st,Gan - dry,tones/gan1.mp3
+貴,4th,Guì - expensive,tones/gui4.mp3
+好,3rd,Hǎo - well,tones/hao3.mp3
+黑,1st,Hēi - black,tones/hei1.mp3
+紅,2nd,Hóng - red,tones/hong2.mp3
+壞,4th,Huài - bad,tones/huai4.mp3
+快,4th,Kuài - fast,tones/kuai4.mp3
+冷,3rd,Lěng - cold,tones/leng3.mp3
+慢,4th,Màn - slow,tones/man4.mp3
+忙,2nd,Máng - busy,tones/mang2.mp3
+美,3rd,Měi - beautiful,tones/mei3.mp3
+強,2nd,Qiáng - strong,tones/qiang2.mp3
+輕,1st,Qīng - light,tones/qing1.mp3
+熱,4th,Rè - heat,tones/re4.mp3
+酸,1st,Suān - acid,tones/suan1.mp3
+晚,3rd,Wǎn - late,tones/wan3.mp3
+小,3rd,Xiǎo - small,tones/xiao3.mp3
+新,1st,Xīn - new,tones/xin1.mp3
+油,2nd,Yóu - oil,tones/you2.mp3
+早,3rd,Zǎo - early,tones/zao3.mp3

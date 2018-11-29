@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^([^?]+).json$ json.php?input=$1.csv [QSA]
